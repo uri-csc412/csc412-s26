@@ -2,7 +2,7 @@
 
 ### TODO:
 
-# get filename to compile from command line (how do you read just the firsy argument?)
+# get filename to compile from command line (how do you read just the first argument?)
 
 # compile lab1.c to lab1 (you did something similar in Lab 0)
 
