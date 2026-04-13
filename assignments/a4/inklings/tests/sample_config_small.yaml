@@ -1,0 +1,9 @@
+# Smaller test config (for quick tests)
+# copy_past into config
+simulation:
+  default_rows: 8
+  default_cols: 8
+  min_rows: 8
+  min_cols: 8
+  min_threads: 2
+  default_threads: 2

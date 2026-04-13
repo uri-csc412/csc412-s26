@@ -199,8 +199,6 @@ func CallGetJob(reply *JobReply) bool {
 		return false
 	}
 	if reply.JobId != 0 {
-		// Note: your original log printed "Filesize" but used FileOffset
-		// Keeping the fields as-is to avoid changing your output format
 		fmt.Printf("WORKER: %v Assigned File: %s, Filesize: %v Type: %d\n",
 			reply.JobId, reply.FileLocation, reply.FileOffset, reply.JobType)
 	}

@@ -1,0 +1,9 @@
+# Larger test config (for stress tests)
+# copy_past into config
+simulation:
+  default_rows: 40
+  default_cols: 40
+  min_rows: 20
+  min_cols: 20
+  min_threads: 8
+  default_threads: 16
